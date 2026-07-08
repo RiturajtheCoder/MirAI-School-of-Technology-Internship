@@ -1,4 +1,4 @@
-# 🛰️ The Identity Echo Interface
+# 🛰️ The Identity Void
 
 A simple Streamlit web application developed as part of the **MirAI School of Technology – Virtual Summer Internship 2026 (AI Builder Track)**.
 
