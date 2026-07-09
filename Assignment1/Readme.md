@@ -4,6 +4,8 @@ A simple Streamlit web application developed as part of the **MirAI School of Te
 
 This project demonstrates the fundamentals of building an interactive web interface using Streamlit, including user input collection, conditional logic, and dynamic output generation.
 
+Access the application on this link: https://theidentityvoid.streamlit.app/
+
 ---
 
 ## 📌 Features
