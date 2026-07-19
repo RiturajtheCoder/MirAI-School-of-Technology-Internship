@@ -58,8 +58,8 @@ AI-Multiverse/
 ### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/AI-Multiverse.git
-cd AI-Multiverse
+git clone https://github.com/RiturajtheCoder/MirAI-School-of-Technology-Internship/Assignment2.git
+cd Assignment2
 ```
 
 ### Install dependencies
@@ -142,8 +142,6 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **Rituraj Saha**
-
-B.Tech Computer Science & Engineering
 
 ---
 
