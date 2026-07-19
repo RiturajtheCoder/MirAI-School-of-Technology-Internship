@@ -92,20 +92,6 @@ streamlit run app.py
 
 ---
 
-## 📸 Preview
-
-Add a screenshot here after deploying your application.
-
-```
-assets/screenshot.png
-```
-
-```markdown
-![AI Multiverse](assets/screenshot.png)
-```
-
----
-
 ## 🔐 Security
 
 This project uses environment variables to securely manage the Gemini API key. Never commit your `.env` file to GitHub. Instead, keep it listed in `.gitignore` and use environment variables or your deployment platform's secret management for production. :contentReference[oaicite:0]{index=0}
