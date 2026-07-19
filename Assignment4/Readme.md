@@ -5,7 +5,7 @@ AI Image Studio is a Streamlit-based AI image generation application that transf
 ## 🚀 Live Demo
 
 🌐 **Streamlit App:**  
-**https://YOUR-STREAMLIT-LINK.streamlit.app/**
+**https://aiimagestudio.streamlit.app**
 
 ---
 
@@ -111,18 +111,6 @@ Enable the **Magic Enhance** option to automatically enrich your prompt with pro
 - Unreal Engine 5 render
 
 This helps generate more visually appealing images.
-
----
-
-## 📸 Preview
-
-Add screenshots of your application here.
-
-```markdown
-![Home Screen](assets/home.png)
-
-![Generated Image](assets/generated_image.png)
-```
 
 ---
 
