@@ -44,7 +44,7 @@ Assignment 1/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/MSOT-Assignment-1.git
+git clone https://MirAI-School-of-Technology–Internship/MSOT-Assignment-1.git
 ```
 
 ### 2. Navigate to the project directory
@@ -114,8 +114,6 @@ This project fulfills the following requirements:
 ## 👨‍💻 Author
 
 **Rituraj Saha**
-
-B.Tech Computer Science & Engineering
 
 MirAI School of Technology – Virtual Summer Internship 2026
 
