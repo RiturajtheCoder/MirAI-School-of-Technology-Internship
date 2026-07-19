@@ -127,17 +127,6 @@ or
 The stored messages are rendered on every rerun using `st.chat_message()`.
 
 ---
-
-## 📸 Preview
-
-Add a screenshot of your application here.
-
-```markdown
-![AI Multiverse Screenshot](assets/screenshot.png)
-```
-
----
-
 ## 🔐 Environment Variables
 
 Create a `.env` file containing:
@@ -180,9 +169,6 @@ pip install -r requirements.txt
 ## 👨‍💻 Author
 
 **Rituraj Saha**
-
-B.Tech Computer Science & Engineering
-
 ---
 
 ## 📄 License
