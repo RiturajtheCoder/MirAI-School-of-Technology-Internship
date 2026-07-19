@@ -115,8 +115,6 @@ This project fulfills the following requirements:
 
 **Rituraj Saha**
 
-MirAI School of Technology – Virtual Summer Internship 2026
-
 ---
 
 ## 📄 License
