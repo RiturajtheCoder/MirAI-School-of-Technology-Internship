@@ -17,9 +17,7 @@ The application helps users visualize their daily screen time habits and receive
 
 **Deployed Application:**
 
-**👉 https://your-app-name.streamlit.app**
-
-*(Replace with your Streamlit deployment URL.)*
+**👉 https://lifeosai.streamlit.app**
 
 ---
 
@@ -27,9 +25,7 @@ The application helps users visualize their daily screen time habits and receive
 
 **Repository:**
 
-**👉 https://github.com/yourusername/life-os-dashboard**
-
-*(Replace with your GitHub repository URL.)*
+**👉 https://github.com/RiturajtheCoder/MirAI-School-of-Technology-Internship/tree/main/Assignment7**
 
 ---
 
@@ -129,13 +125,13 @@ Life-OS/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/life-os-dashboard.git
+https://github.com/RiturajtheCoder/MirAI-School-of-Technology-Internship.git
 ```
 
 Move into the project folder:
 
 ```bash
-cd life-os-dashboard
+cd Assignment7
 ```
 
 Install dependencies:
