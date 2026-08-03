@@ -424,7 +424,7 @@ Rules:
 5. Respond ONLY with the JSON object, no other text.
 
 Start the story with an engaging opening scene based on {genre} genre."""
-}
+
 
 def parse_gemini_response(response_text):
     """Parse JSON response from Gemini with error handling"""
