@@ -73,11 +73,12 @@ with st.sidebar:
         st.rerun()
 
 # ============================================================================
-# PHASE 1: Cache Gemini client
+# PHASE 1: Cache Gemini client - CORRECTED VERSION
 # ============================================================================
 
 @st.cache_resource
 def get_gemini_client():
+    """Initialize and cache Gemini client"""
     api_key = os.getenv("GEMINI_API_KEY")
     
     if not api_key:
@@ -85,11 +86,14 @@ def get_gemini_client():
         st.stop()
     
     try:
-        client = genai.Client(api_key=api_key)
-        return client
+        # Configure the API
+        genai.configure(api_key=api_key)
+        # Return the model directly
+        return genai.GenerativeModel('gemini-1.5-flash')
     except Exception as e:
         st.error(f"Failed to initialize Gemini: {str(e)}")
         st.stop()
+
 # ============================================================================
 # PHASE 2: Structured JSON Engine
 # ============================================================================
@@ -211,17 +215,18 @@ def generate_audio(text):
         return None
 
 # ============================================================================
-# Main Story Logic
+# Main Story Logic - CORRECTED VERSION
 # ============================================================================
 
 def start_story():
     """Initialize the story with the first AI response"""
     with st.spinner("🎬 Crafting your story..."):
         try:
-            client = get_gemini_client()
+            # Get the model (which is a GenerativeModel instance)
+            model = get_gemini_client()
             system_prompt = build_system_prompt(story_genre, art_style)
             
-            # Start chat
+            # Start chat with history
             chat = model.start_chat(history=[])
             st.session_state.chat = chat
             
@@ -252,12 +257,12 @@ def start_story():
                 
         except Exception as e:
             st.error(f"Failed to start story: {str(e)}")
+            st.error("Please check your API key and try again.")
 
 def continue_story(choice_text):
     """Continue the story with user's choice"""
     with st.spinner("📖 Continuing story..."):
         try:
-            model = get_gemini_client()
             chat = st.session_state.chat
             
             # Send user choice with context
@@ -395,3 +400,4 @@ with st.expander("📜 Story History"):
 # ============================================================================
 
 st.markdown("---")
+st.caption("Built with ❤️ for MirAI School of Technology Virtual Summer Internship 2026")
