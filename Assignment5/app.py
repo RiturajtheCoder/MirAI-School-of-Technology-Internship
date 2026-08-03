@@ -218,7 +218,7 @@ def start_story():
     """Initialize the story with the first AI response"""
     with st.spinner("🎬 Crafting your story..."):
         try:
-            model = get_gemini_client()
+            client = get_gemini_client()
             system_prompt = build_system_prompt(story_genre, art_style)
             
             # Start chat
