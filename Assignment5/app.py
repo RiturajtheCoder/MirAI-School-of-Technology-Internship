@@ -395,4 +395,3 @@ with st.expander("📜 Story History"):
 # ============================================================================
 
 st.markdown("---")
-st.caption("Built with ❤️ for MirAI School of Technology Virtual Summer Internship 2026")
