@@ -78,7 +78,6 @@ with st.sidebar:
 
 @st.cache_resource
 def get_gemini_client():
-    """Initialize and cache Gemini client"""
     api_key = os.getenv("GEMINI_API_KEY")
     
     if not api_key:
@@ -86,12 +85,11 @@ def get_gemini_client():
         st.stop()
     
     try:
-        genai.configure(api_key=api_key)
-        return genai.GenerativeModel('gemini-1.5-flash')
+        client = genai.Client(api_key=api_key)
+        return client
     except Exception as e:
         st.error(f"Failed to initialize Gemini: {str(e)}")
         st.stop()
-
 # ============================================================================
 # PHASE 2: Structured JSON Engine
 # ============================================================================
