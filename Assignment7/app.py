@@ -50,7 +50,7 @@ h1,h2,h3{
 # LOAD DATA
 # ============================================================
 
-DATA_FILE = "screentime.csv"
+DATA_FILE = "Assignment7/screentime.csv"
 
 df = pd.read_csv(DATA_FILE)
 
