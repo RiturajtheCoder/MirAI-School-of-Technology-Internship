@@ -320,7 +320,7 @@ if st.session_state.current_audio and os.path.exists(st.session_state.current_au
 
 
 import streamlit as st
-import google.generativeai as genai
+from google import genai
 import json
 import requests
 from io import BytesIO
