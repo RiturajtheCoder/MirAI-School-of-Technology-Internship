@@ -1,9 +1,3 @@
-# [MY_GITHUB_USERNAME]
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MY_GITHUB_USERNAME&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true)](https://github-readme-stats.vercel.app/api?username=MY_GITHUB_USERNAME&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true)
-[![GitHub Streak](https://streak-stats.demolab.com?user=MY_GITHUB_USERNAME&theme=github-dark&hide_border=true)](https://streak-stats.demolab.com?user=MY_GITHUB_USERNAME&theme=github-dark&hide_border=true)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MY_GITHUB_USERNAME&layout=compact&theme=github_dark)](https://github-readme-stats.vercel.app/api/top-langs/?username=MY_GITHUB_USERNAME&layout=compact&theme=github_dark)
-
 ```text
 ╔══════════════════════════════════════════════════════════════╗
 ║                    SYSTEM INITIALIZED                        ║
