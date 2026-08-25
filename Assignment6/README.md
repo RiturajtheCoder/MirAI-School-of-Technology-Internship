@@ -1,3 +1,6 @@
+# [MY_GITHUB_USERNAME]
+
+
 ```text
 ╔══════════════════════════════════════════════════════════════╗
 ║                    SYSTEM INITIALIZED                        ║
@@ -55,14 +58,11 @@ Software Engineering
 
 $ ls ~/projects
 
-[01] [PROJECT_NAME_1]
-     [short description]
+[01] AI Health Analysis
+     
 
-[02] [PROJECT_NAME_2]
-     [short description]
-
-[03] [PROJECT_NAME_3]
-     [short description]
+[02] Gesture Recognition System
+     
 
 $ systemctl status developer
 
@@ -81,12 +81,6 @@ $ exit
 
 ## Links
 
-- GitHub: [https://github.com/MY_GITHUB_USERNAME](https://github.com/MY_GITHUB_USERNAME)
-- LinkedIn: [MY_LINKEDIN_URL](MY_LINKEDIN_URL)
-- Portfolio: [MY_PORTFOLIO_URL](MY_PORTFOLIO_URL)
+- GitHub: [https://github.com/MY_GITHUB_USERNAME]([https://github.com/MY_GITHUB_USERNAME](https://github.com/RiturajtheCoder))
+- LinkedIn: [MY_LINKEDIN_URL]((https://www.linkedin.com/in/rituraj-saha-4072482a9/))
 - Email: [saharituraj805@gmail.com](mailto:saharituraj805@gmail.com)
-
-## Notes
-
-- Replace placeholder fields like `MY_GITHUB_USERNAME`, `MY_NAME`, `MY_UNIVERSITY`, `MY_LOCATION`, `MY_AGE`, `MY_EMAIL`, `MY_LINKEDIN_URL`, `MY_PORTFOLIO_URL`, `PROJECT_NAME_1`, `PROJECT_NAME_2`, and `PROJECT_NAME_3` before publishing.
-- The stats cards use GitHub Readme Stats by Anurag Hazra and are intentionally kept outside the main terminal code block so they render correctly on GitHub.
